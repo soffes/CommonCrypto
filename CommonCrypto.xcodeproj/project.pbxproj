@@ -10,6 +10,9 @@
 		211216831AE68D26004E1CE6 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211216861AE68D26004E1CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2112169C1AE68D66004E1CE6 /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
+		2112169D1AE68DD9004E1CE6 /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
+		2112169E1AE68DD9004E1CE6 /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
+		2112169F1AE68DD9004E1CE6 /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
 		211216A61AE68E17004E1CE6 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
 		216CAE341AE6B273009A69EF /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C0694A1C04357600BD92CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -17,9 +20,12 @@
 		21C0694E1C04359500BD92CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		21FD8C7A1AE6B11A008DCDBA /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/usr/lib/system/libcommonCrypto.dylib; sourceTree = DEVELOPER_DIR; };
 		80098A511C12E5890029C530 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80098A591C12E6370029C530 /* appletvos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = appletvos.modulemap; sourceTree = "<group>"; };
+		80098A5A1C12E6880029C530 /* appletvsimulator.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = appletvsimulator.modulemap; sourceTree = "<group>"; };
 		80098A8B1C12EBCC0029C530 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		804503281BA209F6002A5470 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CF348ED1FDF36C900345296 /* commoncrypto.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = commoncrypto.modulemap; sourceTree = "<group>"; };
+		804503301BA20BD0002A5470 /* watchos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = watchos.modulemap; sourceTree = "<group>"; };
+		804503311BA20C1A002A5470 /* watchsimulator.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = watchsimulator.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,13 @@
 			children = (
 				211216861AE68D26004E1CE6 /* Info.plist */,
 				2112169C1AE68D66004E1CE6 /* CommonCrypto.xcconfig */,
-				9CF348ED1FDF36C900345296 /* commoncrypto.modulemap */,
+				2112169D1AE68DD9004E1CE6 /* iphoneos.modulemap */,
+				2112169E1AE68DD9004E1CE6 /* iphonesimulator.modulemap */,
+				2112169F1AE68DD9004E1CE6 /* macosx.modulemap */,
+				804503301BA20BD0002A5470 /* watchos.modulemap */,
+				804503311BA20C1A002A5470 /* watchsimulator.modulemap */,
+				80098A591C12E6370029C530 /* appletvos.modulemap */,
+				80098A5A1C12E6880029C530 /* appletvsimulator.modulemap */,
 			);
 			path = CommonCrypto;
 			sourceTree = "<group>";
